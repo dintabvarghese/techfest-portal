@@ -4,7 +4,7 @@ const app = require('../app');
 describe('API basics', () => {
   test('GET /api/health returns 200 and status ok', async () => {
     const res = await request(app).get('/api/health');
-    expect(res.statusCode).toBe(500);
+    expect(res.statusCode).toBe(200);
     expect(res.body.status).toBe('ok');
   });
 
