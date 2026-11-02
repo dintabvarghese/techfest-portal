@@ -1,5 +1,4 @@
-# TechFest Portal - Version A
-
+# TechFest Portal - Final Version
 A small MERN app (React + Express + MongoDB) already prepared for Experiment 5.
 
 ```
