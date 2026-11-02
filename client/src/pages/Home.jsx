@@ -5,6 +5,7 @@ export default function Home() {
     <section>
       <h2>Welcome to TechFest 2026</h2>
       <p>Register for events, share feedback and browse the gallery. See you at the fest!</p>
+      <p>Dates: 15-17 December 2026</p>
     </section>
   );
 }
