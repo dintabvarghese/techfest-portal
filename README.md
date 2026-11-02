@@ -1,4 +1,4 @@
-# TechFest 2026 Portal: Experiment 5 starter
+# TechFest Portal - Version A
 
 A small MERN app (React + Express + MongoDB) already prepared for Experiment 5.
 
