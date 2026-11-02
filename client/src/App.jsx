@@ -1,9 +1,9 @@
 import React, { Suspense, lazy } from 'react';
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home.jsx';
-import Register from './pages/Register.jsx';
-import Login from './pages/Login.jsx';
-import Feedback from './pages/Feedback.jsx';
+const Register = lazy(() => import('./pages/Register.jsx'));
+const Login = lazy(() => import('./pages/Login.jsx'));
+const Feedback = lazy(() => import('./pages/Feedback.jsx'));
 
 // Step 16: Gallery code is downloaded only when the user opens /gallery
 const Gallery = lazy(() => import('./pages/Gallery.jsx'));
